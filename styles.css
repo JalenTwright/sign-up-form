@@ -1,3 +1,18 @@
+@font-face {
+    font-family: valoon;
+    src: url(fonts/Valoon.ttf);
+}
+
+@font-face {
+    font-family: lemon-milk;
+    src: url(fonts/lemon_milk/LEMONMILK-RegularItalic.otf);
+}
+
+@font-face {
+    font-family: bit_pusab;
+    src: url(fonts/8_bit_pusab/8-bit-pusab.ttf);
+}
+
 body {
     background-color: black;
     margin: 0;
@@ -13,8 +28,6 @@ img {
 #info-box {
     display: flex;
     background-color: #F0F8FF;
-    border-style: solid;
-    border-width: 1px;
     width: 600px;
     align-items: center;
     justify-content: center;
@@ -24,11 +37,11 @@ img {
     background-color:#faf0e6;
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-color: #452c63;
+    border-width: 0px;
     height: 550px;
     width: 500px;
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -39,13 +52,17 @@ img {
 
 p {
     color: black;
+    margin-top: 8px;
 }
 
 
 h2 {
+    cursor:default;
+    margin-top: 0px;
+    font-family: valoon;
+    font-size: 45px;
     color: black;
-    margin-left: 125px;
-    margin-right: 100px;
+    margin-left: 15px;
 }
 
 label, input {
@@ -55,12 +72,15 @@ label, input {
 
 
 label {
+    font-family: lemon-milk;
     color: black;
 }
 
 input {
+    border-style: solid;
+    border-color: black;
     width: 200px;
-    margin-bottom: 43px;
+    margin-bottom: 39px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -75,8 +95,15 @@ input {
 }
 
 button {
+    font-family: bit_pusab;
+    cursor: pointer;
     background-color: #FFB6C1;
-    color: ;
-    width: 100px;
-    height: 32px;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #ffa1af;
 }
