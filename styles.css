@@ -1,7 +1,7 @@
 body {
-    -background-color: black;
+    background-color: black;
     margin: 0;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 
@@ -12,7 +12,7 @@ img {
 
 #info-box {
     display: flex;
-    -background-color: rgb(0, 0, 0);
+    background-color: #F0F8FF;
     border-style: solid;
     border-width: 1px;
     width: 600px;
@@ -20,7 +20,10 @@ img {
     justify-content: center;
 }
 
-.sign-up-form {
+.sign-up-form{
+    background-color:#faf0e6;
+    display: flex;
+    flex-direction: column;
     border-style: solid;
     border-color: #452c63;
     height: 550px;
@@ -28,6 +31,52 @@ img {
     border-radius: 15px;
 }
 
+
+.label-div {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: black;
+}
+
+
 h2 {
-    color: azure;
+    color: black;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+label, input {
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+
+label {
+    color: black;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 43px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.submit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #FFB6C1;
+    color: ;
+    width: 100px;
+    height: 32px;
 }
