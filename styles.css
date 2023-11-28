@@ -107,3 +107,11 @@ button {
 button:hover {
     background-color: #ffa1af;
 }
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
